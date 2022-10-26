@@ -3,10 +3,8 @@ import { HomeCard } from "../../Component/HomeCard/HomeCard";
 import category from "../../assests/images/category.svg";
 import styles from "./searchresult.module.css";
 import backgroundimg from "../../assests/images/backgroundimg.svg";
-// import axios from "../../config/axios";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import { getEpigraph } from "../../services/getEpigraph";
 import { getEpi } from "../../Redux/Slices/getAllEpi";
 import { useDispatch, useSelector } from "react-redux";
 import { setSearch } from "../../Redux/Slices/getAllSearch";
@@ -20,7 +18,6 @@ export const Search = () => {
   const { data } = useSelector((state) => state.getAllEpi);
   const location = useLocation();
 
-  // const { search } = useSelector((state) => state.getAllSearch);
   const search = location.pathname.split("/").at(-1);
   useEffect(() => {
     if (search) {
@@ -41,16 +38,12 @@ export const Search = () => {
   }, [search]);
   return (
     <>
-      <div
-        // className={styles.cardimage}
-        style={{ backgroundImage: "url(" + backgroundimg + ")" }}
-      >
+      <div style={{ backgroundImage: "url(" + backgroundimg + ")" }}>
         <div
           className={styles.catimage}
           style={{ backgroundImage: "url(" + category + ")" }}
         ></div>
         <div className={styles.cardtitle}>
-          {/* {smsg} */}
           <div className={styles.cardcontainer}>
             {!showMsg ? (
               data?.map((item, i) => {

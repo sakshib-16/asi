@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./homecard.module.css";
-import fatehpur from "../../assests/images/fatehpur.svg";
 import { Link } from "react-router-dom";
 
 export const HomeCard = ({ title, description, image, id, category }) => {
