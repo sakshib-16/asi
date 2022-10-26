@@ -1,0 +1,100 @@
+.catimage {
+    height: 320px;
+    background-repeat: no-repeat;
+}
+.detailcontainer{
+    display: flex;
+    margin:30px;
+}
+.description{
+background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgb(171 170 170 / 25%);
+    border-radius: 8px;
+    position: absolute;
+    width: 65%;
+    margin-left: 26%;
+    margin-top: 8%;
+}
+
+.description p{
+font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    text-transform: capitalize;
+    color: #444444;
+    margin: 45px;
+    margin-top: 30px
+}
+.description h2 {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #000000;
+    margin-left: 45px;
+    margin-top: 35px;
+    
+}
+.downloadsection{
+    margin-top: 60px;
+    text-align: left;
+    padding: 30px;
+    /* height: 322px; */
+}
+.downloadsection h2{
+margin-left: 44px;
+}
+.downloaddiv{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+}
+.imagecontainer{
+    margin-left:35px;
+}
+.scrollbar_none {
+   
+   
+    height: 150px;
+   
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 2px;
+    background: #c8ccd0;
+    margin-left:2px
+}
+.imagecontainer img {
+width: 600px;
+    height: 600px
+}
+@media only screen and (max-width: 768px) {
+    .downloaddiv {
+        display: block;
+
+    }
+.imagecontainer img{
+    width: 222px;
+        height: 304px;
+}
+                 .description p {
+                        margin: 22px;
+                    line-height: 21px;
+                    font-size: 13px;
+                 }
+.imagecontainer  {
+    margin-left: -5px;
+}
+ .downloadsection {
+    margin-top:0px
+ }   
+ .description h2 {
+     font-size: 13px;
+     line-height: 0px;
+     margin-top: 35px;
+margin-left: 22px;
+ }
+ 
+}

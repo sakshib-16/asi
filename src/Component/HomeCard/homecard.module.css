@@ -1,0 +1,37 @@
+.cardbtn{
+    text-transform: capitalize;
+        background-color: #081371;
+        color: #FFFFFF;
+        width: 95px;
+        height: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        font-weight: 400;
+            font-size: 12px;
+            text-decoration: none;
+}
+.cardbody{
+border-radius: 8px 8px 8px 8px;
+width: 400px;
+
+background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(193, 192, 192, 0.25);
+}
+.carddesc{
+    text-align: left;
+    padding: 20px;
+    height: auto;
+    background-color: #fff;
+}
+.cardimage{
+    background-size: cover;
+       
+}
+.cardtitle {
+    text-transform: capitalize;
+}
+.carddesc a {
+text-decoration: none;
+}

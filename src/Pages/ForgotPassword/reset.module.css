@@ -1,0 +1,187 @@
+.signupcontainer {
+    display: flex;
+    width: 70%;
+    gap: 50px;
+    margin: auto;
+    padding: 90px;
+}
+
+.signup_img {
+    width: 40%
+}
+
+.inputcontainer {
+    text-align: center;
+}
+
+.inputcontainer input {
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-shadow: 0px 0px 8px #eeeeee;
+    border-radius: 4px;
+    width: 380px;
+    height: 44px;
+    margin: 5px;
+    text-indent: 40px;
+}
+
+.inputbox {
+    box-shadow: 0px 0px 50px #eeeeee;
+    /* width: 47%; */
+    background: #fafafc;
+    margin: auto;
+}
+
+.inputcontainer .submitbtn {
+    background: #2867d9;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    text-indent: 0px;
+    border: 1px solid #E0E0E0;
+    box-shadow: 0px 0px 8px #eeeeee;
+    border-radius: 4px;
+    width: 380px;
+    height: 44px;
+    margin: 5px;
+}
+
+.inputbox h2 {
+    width: 380px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 26px;
+    color: #000000
+}
+
+.textbox {
+    margin-top: 45px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.inputcontainer img {
+    position: absolute;
+    padding: 15px;
+    min-width: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    /* Firefox */
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.inputgroupbtn {
+    position: absolute;
+    margin-left: 341px;
+    margin-top: 18px;
+}
+
+.textbox a {
+    text-decoration: none;
+}
+
+.textbox button {
+    background: none;
+    border: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Roboto';
+}
+
+.errormsg {
+    color: #000000;
+    font-size: 13px;
+    text-transform: none;
+}
+
+.fpass {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    text-transform: lowercase;
+    color: #C02222;
+    text-align: right;
+    margin-right: 16px;
+}
+
+.textbox p {
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Roboto';
+
+}
+
+@media only screen and (max-width: 768px) {
+    .inputbox {
+        width: 100%
+    }
+
+    .inputbox h2 {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .inputcontainer .submitbtn {
+        width: 0px;
+
+    }
+
+    .inputcontainer input {
+    width: 200px;
+        height: 32px;
+    }
+
+    .inputcontainer .submitbtn {
+        width: 174px;
+        height: 32px;
+    }
+
+    .inputcontainer img {
+
+        min-width: 0px;
+    }
+
+    .inputgroupbtn {
+        margin-left: 160px;
+
+    }
+
+    .inputcontainer input {
+        font-size: 11px;
+        text-indent: 30px;
+        width: 230px;
+    }
+        .signup_img img{
+width: 132px;
+    height: 250px;
+        }
+
+                .signupcontainer {
+                    display: flex;
+                    width: 100%;
+                    gap: 0px;
+                    margin: auto;
+                    padding: 0px;
+                }
+ }
