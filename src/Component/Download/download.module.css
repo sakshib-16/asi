@@ -1,0 +1,45 @@
+.downloadbox{
+background: #FFFFFF;
+box-shadow: 0px 4px 25px rgb(173 173 173 / 25%);
+border-radius: 8px;
+width: 45%;
+display: flex;
+gap: 50px;
+}
+.imagebox{
+width: 118px;
+    margin: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgb(173 173 173 / 25%);
+    border-radius: 8px;
+}
+.textbox p{
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+color: #444444;
+}
+.downloadbtn{
+font-weight: 600;
+    font-size: 16px;
+        color: #FFFFFF;
+        width: 95px;
+        height: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #081371;
+        border-radius: 4px;
+        border: none;
+}
+@media only screen and (max-width: 768px) {
+    .downloadbox {
+        width: 100%;
+        gap: 10px;
+        margin-top: 10px;
+          
+}
+.textbox p {
+    font-size: 14px;
+}
+}

@@ -1,0 +1,23 @@
+.signup_img {
+    width: 40%
+}
+.textbox {
+    margin-top: 45px;
+    font-weight: 500;
+}
+.signup_img button {
+    background:none;
+    border:none;
+    color: #005FCE;
+    font-weight: 500;
+        font-size: 12px;
+        font-family: 'Roboto';
+}
+.signup_img p {
+    background: none;
+    border: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Roboto';
+}

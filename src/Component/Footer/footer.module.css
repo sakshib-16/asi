@@ -1,0 +1,17 @@
+.copyright_text{
+    background: #081371;
+        color: #fff;
+        /* height: 11px; */
+        padding: 5px
+}
+.footersection{
+height:90px;
+background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 768px) {
+    .footersection {
+            height: 29px;
+            background-size:contain
+}
+}

@@ -1,0 +1,26 @@
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px;
+    margin-bottom: 0px
+}
+
+.cardtitle h1 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 50px;
+    margin-bottom: 0px
+}
+
+.banner {
+height: 320px;}
+
+
+.catimage{
+height: 320px;
+background-repeat: no-repeat;
+}

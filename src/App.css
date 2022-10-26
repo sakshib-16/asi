@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +26,9 @@
 
 .App-link {
   color: #61dafb;
+}
+.toast-message{
+  min-height: 51px !important;
 }
 
 @keyframes App-logo-spin {

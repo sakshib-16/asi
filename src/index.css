@@ -1,13 +1,46 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif,'Roboto';
+ 
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+      font-family: 'Inter', sans-serif, 'Roboto' ;
+}
+
+
+
+.carousel .carousel-status {
+  font-weight: 600 !important;
+    font-size: 20px !important;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 90%);
+  color: #fff !important;
+    right: 8.3em !important;
+      top: 18em !important;
+          bottom: auto!important;
+          padding: 0.4em !important;
+}
+ input::-ms-reveal,
+ input::-ms-clear {
+   display: none;
+ }
+@media only screen and (max-width: 768px) {
+
+  .carousel .carousel-status {
+  font-size: 15px !important;
+    top: 17em !important;
+  right: 10.9em !important;
+  }
+
+    .carousel-slider button{
+width: 30.64px !important;
+    top: 20em !important;
+  }
 }

@@ -1,0 +1,33 @@
+.bannerimage{
+    padding: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bannerimage h1{
+font-weight: 600;
+    font-size: 48px;
+    text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+.bannerimage p {
+    font-weight: 500;
+        font-size: 24px;
+        color: #FFFFFF;
+}
+@media only screen and (max-width: 768px) {
+
+    .bannerimage h1 {
+
+        font-size: 26px;
+    }
+
+    .bannerimage p {
+
+        font-size: 14px;
+    }
+        .bannerimage {
+        padding: 80px;
+        }
+}
