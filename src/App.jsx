@@ -13,7 +13,7 @@ import { useAuth } from "./Auth/AuthProvider";
 import { setToken } from "./config/axios";
 import { About } from "./Pages/About/About";
 import { Search } from "./Pages/SearchResult/Search";
-import { ResetPassword } from "./Pages/ForgotPassword/ResetPassword";
+import { ResetPassword } from "./Pages/ResetPassword/ResetPassword";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { WithHeader } from "./config/withHeader";
@@ -30,7 +30,6 @@ function App() {
         <Route element={<WithHeader />}>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
-          {/* <Route path="contact" element={<Contact />} /> */}
           <Route path="/:name" element={<Category />} />
           <Route path="/:name/:id" element={<Detail />} />
           <Route path="/signup" element={<Signup />} />

@@ -20,7 +20,6 @@ export const Search = () => {
   const { data } = useSelector((state) => state.getAllEpi);
   const location = useLocation();
 
-  // const { search } = useSelector((state) => state.getAllSearch);
   const search = location.pathname.split("/").at(-1);
   useEffect(() => {
     if (search) {
@@ -41,16 +40,12 @@ export const Search = () => {
   }, [search]);
   return (
     <>
-      <div
-        // className={styles.cardimage}
-        style={{ backgroundImage: "url(" + backgroundimg + ")" }}
-      >
+      <div style={{ backgroundImage: "url(" + backgroundimg + ")" }}>
         <div
           className={styles.catimage}
           style={{ backgroundImage: "url(" + category + ")" }}
         ></div>
         <div className={styles.cardtitle}>
-          {/* {smsg} */}
           <div className={styles.cardcontainer}>
             {!showMsg ? (
               data?.map((item, i) => {

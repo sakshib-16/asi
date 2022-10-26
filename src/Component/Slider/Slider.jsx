@@ -18,8 +18,6 @@ export const Slider = () => {
 
   useEffect(() => {
     getBanner().then((i) => dispatch(getBannerData(i)));
-
-    //getCat();
   }, []);
 
   const arrowPrev = {
@@ -88,7 +86,6 @@ export const Slider = () => {
                 className={styles.bannerimage}
                 style={{ backgroundImage: "url(" + item.imageLink + ")" }}
               >
-                {/* <img src={redfort} /> */}
                 <span>
                   <h1> {item.title}</h1>
                   <p>{item.description}</p>

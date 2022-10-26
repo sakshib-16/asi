@@ -16,7 +16,6 @@ export const Search = () => {
   const handleChange = (e) => {
     setSearchData(e.target.value);
   };
-  const { search } = useSelector((state) => state.getAllSearch);
 
   const searchBtn = () => {
     if (searchData.length < 3) {

@@ -18,10 +18,8 @@ import { getEpi } from "../../Redux/Slices/getAllEpi";
 
 export const Detail = () => {
   const { state } = useLocation();
-  // const id = state?.props;
 
   const location = useLocation();
-  // console.log(location.pathname);
 
   const id = location.pathname.split("/").at(-1);
   const [show, setShow] = useState(true);
@@ -34,8 +32,6 @@ export const Detail = () => {
     getEpiDetail(id).then((i) => dispatch(getDetail(i)));
     setShow(true);
     dispatch(setSearch(""));
-
-    //getCat();
   }, []);
 
   return (

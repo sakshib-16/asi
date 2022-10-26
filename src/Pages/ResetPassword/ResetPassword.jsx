@@ -9,8 +9,8 @@ import signupimg from "../../assests/images/signupimg.svg";
 import { useLocation } from "react-router-dom";
 import axios from "../../config/axios";
 import "react-toastify/dist/ReactToastify.css";
-import { ToastContainer, toast } from "react-toastify";
-import { Link, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
 export const ResetPassword = () => {
   const [formData, setFormData] = useState({
@@ -45,14 +45,6 @@ export const ResetPassword = () => {
           });
           setTimeout(() => navigate("/"), 5000);
         }
-        //else {
-        //     ctx.auth({ ...res.data, isLoggedIn: true });
-
-        //     props.setIsOpen(false);
-        //     document.body.style.overflow = "unset";
-
-        //   }
-        // }
       }
     } catch (error) {
       setmsg("Token is Invalid");
@@ -62,7 +54,6 @@ export const ResetPassword = () => {
 
   return (
     <div className={styles.signupcontainer}>
-      {/* <SignupImage /> */}
       <div className={styles.signup_img}>
         <img src={signupimg} />
       </div>
@@ -111,8 +102,6 @@ export const ResetPassword = () => {
           </div>
         </form>
       </div>
-
-      {/* <Login /> */}
     </div>
   );
 };
